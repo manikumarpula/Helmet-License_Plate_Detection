@@ -35,15 +35,15 @@ To run the code, download the following files and place them in your main projec
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
-3. Download and Place Model Files
+## Download and Place Model Files
     1. Download Model Files:
         Download YOLOv5 and ResNet50 model weights from the links above.
     2. Place Model Files:
         Place the downloaded model weights in the models/ directory of the project.
-4. Output:
+3. **Output**:
     1. Detected license plate numbers will be saved in the output/license_plates/ folder.
     2. Images of riders without helmets will be saved in the output/rider_images/ folder.
-5. Requirements
+4. **Requirements**
     Python 3.x
     Torch (PyTorch)
     OpenCV
